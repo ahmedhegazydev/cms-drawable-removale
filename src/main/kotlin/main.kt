@@ -44,7 +44,7 @@ fun main(args: Array<String>) {
 //        println("====================")
 //    }
 
-    val start = "val list = mutableListOf<Int>("
+    val start = "val list = mutableListOf<Int>(\n"
     var body = ""
     values.forEach {
         body += "R.id.$it, \n"
