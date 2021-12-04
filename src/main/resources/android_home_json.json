@@ -1,0 +1,1023 @@
+{
+  "components": [
+    {
+      "id": "netzassistant",
+      "actionEligibilityID": "netzassistant",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "admin_white_24",
+        "headline": "Netz-Assistent",
+        "background": "white",
+        "subline": "Störungen prüfen"
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "screenTitleContentJsonKey",
+          "attributeValue": "vf_dashboard_netzassistant"
+        },
+        {
+          "attributesKey": "trackedScreenName",
+          "attributeValue": "network:netinfo:network assistant (webview)"
+        }
+      ]
+    },
+    {
+      "id": "netzassistant-dsl",
+      "actionEligibilityID": "netzassistant-dsl",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "admin_white_24",
+        "headline": "Netz-Assistent",
+        "background": "white",
+        "subline": "Störungen prüfen"
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "screenTitleContentJsonKey",
+          "attributeValue": "vf_dashboard_netzassistant"
+        },
+        {
+          "attributesKey": "trackedScreenName",
+          "attributeValue": "network:netinfo:network assistant (webview)"
+        }
+      ]
+    },
+    {
+      "id": "netzassistant-cable",
+      "actionEligibilityID": "netzassistant-cable",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "admin_white_24",
+        "headline": "Netz-Assistent",
+        "background": "white",
+        "subline": "Störungen prüfen"
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "screenTitleContentJsonKey",
+          "attributeValue": "vf_dashboard_netzassistant"
+        },
+        {
+          "attributesKey": "trackedScreenName",
+          "attributeValue": "network:netinfo:network assistant (webview)"
+        }
+      ]
+    },
+    {
+      "id": "postpaidConsumption",
+      "actionEligibilityID": "quickcheck",
+      "template": "postpaidConsumptionTemplate",
+      "config": {
+        "icon": "data_sharing_dark_24",
+        "background": "white",
+        "headline": "",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "daysRemainingOneDay",
+          "attributeValue": "1 Tag"
+        },
+        {
+          "attributesKey": "iconMB",
+          "attributeValue": "data_sharing_dark_24"
+        },
+        {
+          "attributesKey": "iconSMS",
+          "attributeValue": "sms_text_dark_24"
+        },
+        {
+          "attributesKey": "iconVoice",
+          "attributeValue": "landline_or_call_minutes_dark_24"
+        },
+        {
+          "attributesKey": "iconMMS",
+          "attributeValue": "sms_text_dark_24"
+        },
+        {
+          "attributesKey": "iconOther",
+          "attributeValue": "mobile_dark_24"
+        },
+        {
+          "attributesKey": "remaining",
+          "attributeValue": "verbleibend von"
+        },
+        {
+          "attributesKey": "daysRemainingSuffix",
+          "attributeValue": "Tage verfügbar"
+        },
+        {
+          "attributesKey": "dayRemainingSuffix",
+          "attributeValue": "Tag"
+        },
+        {
+          "attributesKey": "hourRemainingSuffix",
+          "attributeValue": "Noch %d Stunde"
+        },
+        {
+          "attributesKey": "hoursRemainingSuffix",
+          "attributeValue": "Noch %d Stunden"
+        },
+        {
+          "attributesKey": "flatPrefix",
+          "attributeValue": "Flat"
+        },
+        {
+          "attributesKey": "usedSuffix",
+          "attributeValue": "verbraucht"
+        },
+        {
+          "attributesKey": "callToActionGigaDepot",
+          "attributeValue": "+GigaDepot"
+        },
+        {
+          "attributesKey": "callToActionSpeedbucket",
+          "attributeValue": "Speedbucket buchen"
+        },
+        {
+          "attributesKey": "callToActionRequestMoreData",
+          "attributeValue": "Datenvolumen anfragen"
+        },
+        {
+          "attributesKey": "vfPackageEndDatePrefix",
+          "attributeValue": "Verfügbar bis"
+        },
+        {
+          "attributesKey": "vfPackageStartDatePrefix",
+          "attributeValue": "Verbraucht seit"
+        }
+      ]
+    },
+    {
+      "id": "postpaidCurrentCosts",
+      "actionEligibilityID": "currentcost",
+      "template": "postpaidCurrentCostsTemplate",
+      "config": {
+        "icon": "balance_dark_24",
+        "background": "white",
+        "headline": "Mobilfunk-Kosten",
+        "subline": "Zusätzliche Verbindungskosten",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "postpaidRedPlus",
+      "actionEligibilityID": "redplus",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "admin_plus_white_24",
+        "headline": "Red+ Zusatzkarte",
+        "background": "bg_image_card_red",
+        "subline": "Teil Dein Datenvolumen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "info",
+      "actionEligibilityID": "info",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "settings_dark",
+        "background": "white",
+        "headline": "Einstellungen",
+        "subline": "Bearbeiten",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "tariffoptions",
+      "actionEligibilityID": "tariffoptions",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "add_dark_24",
+        "headline": "Optionen buchen",
+        "background": "white",
+        "subline": "Entdecken",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "data",
+      "actionEligibilityID": "data",
+      "template": "defaultTemplate",
+      "customAttributes": [
+      ],
+      "config": {
+        "icon": "admin_white_24",
+        "headline": "Meine Daten",
+        "background": "white",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "bill_cable",
+      "actionEligibilityID": "bill_cable",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "bill_report_dark_24",
+        "background": "white",
+        "headline": "Rechnungen",
+        "subline": "Hier findest Du alle Deine Rechnungen im Überblick",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "screenTitleContentJsonKey",
+          "attributeValue": "vf_bill_cable_screen_name"
+        },
+        {
+          "attributesKey": "trackedScreenName",
+          "attributeValue": "bill:overview (webview)"
+        }
+      ]
+    },
+    {
+      "id": "contract_data_cable",
+      "actionEligibilityID": "contract_data_cable",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "contract_dark_24_px",
+        "background": "white",
+        "headline": "Vertragsdaten",
+        "subline": "Tarifdetails einsehen und Optionen buchen",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "screenTitleContentJsonKey",
+          "attributeValue": "vf_contract_data_cable_screen_name"
+        },
+        {
+          "attributesKey": "trackedScreenName",
+          "attributeValue": "tariff:tariff overview (webview)"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "actionEligibilityID": "overview",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "bill_report_dark_24",
+        "background": "white",
+        "headline": "Aktuelle Rechnung",
+        "subline": "Details ansehen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "postpaidVodafonePass",
+      "actionEligibilityID": "tariffoptions",
+      "template": "postpaidVodafonePassTemplate",
+      "config": {
+        "icon": "passes",
+        "background": "white",
+        "headline": "Vodafone Pass",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "prepaidConsumption",
+      "actionEligibilityID": "quickcheck",
+      "template": "PrepaidConsumptionTemplate",
+      "config": {
+        "icon": "data_sharing_dark_24",
+        "background": "white",
+        "headline": "",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "flatPrefix",
+          "attributeValue": "Flat"
+        },
+        {
+          "attributesKey": "remaining",
+          "attributeValue": "verbleibend von"
+        },
+        {
+          "attributesKey": "daysRemainingSuffix",
+          "attributeValue": "Tage verfügbar"
+        },
+        {
+          "attributesKey": "dayRemainingSuffix",
+          "attributeValue": "Tag"
+        },
+        {
+          "attributesKey": "iconMB",
+          "attributeValue": "data_sharing_dark_24"
+        },
+        {
+          "attributesKey": "iconOther",
+          "attributeValue": "mobile_dark_24"
+        },
+        {
+          "attributesKey": "tariffKey",
+          "attributeValue": "Tarif"
+        },
+        {
+          "attributesKey": "tariffOptionKey",
+          "attributeValue": "Optionen"
+        },
+        {
+          "attributesKey": "inActiveValue",
+          "attributeValue": "Inaktiv"
+        },
+        {
+          "attributesKey": "activeValue",
+          "attributeValue": "Aktiv"
+        },
+        {
+          "attributesKey": "nearlyInActiveValue",
+          "attributeValue": "bald inaktiv"
+        },
+        {
+          "attributesKey": "callToActionRequestMoreData",
+          "attributeValue": "Datenoptionen buchen"
+        },
+        {
+          "attributesKey": "vfPackageEndDatePrefix",
+          "attributeValue": "Verfügbar bis"
+        },
+        {
+          "attributesKey": "vfPackageStartDatePrefix",
+          "attributeValue": "Verbraucht seit"
+        }
+      ]
+    },
+    {
+      "id": "prepaidCredit",
+      "actionEligibilityID": "recharge",
+      "template": "PrepaidCreditTemplate",
+      "config": {
+        "icon": "balance_dark_24",
+        "headline": "Guthaben",
+        "background": "white",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      },
+      "customAttributes": [
+        {
+          "attributesKey": "tariffKey",
+          "attributeValue": "Tarif"
+        },
+        {
+          "attributesKey": "tariffOptionKey",
+          "attributeValue": "Optionen"
+        },
+        {
+          "attributesKey": "inActiveValue",
+          "attributeValue": "Inaktiv"
+        },
+        {
+          "attributesKey": "activeValue",
+          "attributeValue": "Aktiv"
+        },
+        {
+          "attributesKey": "nearlyInActiveValue",
+          "attributeValue": "bald inaktiv"
+        }
+      ]
+    },
+    {
+      "id": "recharge",
+      "actionEligibilityID": "recharge",
+      "template": "defaultTemplate",
+      "customAttributes": [
+      ],
+      "config": {
+        "icon": "top_up_dark_24",
+        "headline": "Aufladen",
+        "background": "white",
+        "subline": "Betrag auswählen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "vertrag",
+      "actionEligibilityID": "vertrag",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "add_dark_24",
+        "background": "bg_image_card_red",
+        "headline": "Mein Tarif",
+        "subline": "Details ansehen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "bill_fixednet",
+      "actionEligibilityID": "bill_fixednet",
+      "template": "dslLastBill",
+      "customAttributes": [
+        {
+          "attributesKey": "billDatePrefix",
+          "attributeValue": "Rechnung vom "
+        },
+        {
+          "attributesKey": "Nil_UnbilledUsage_FixedNet_500_NIL0F0895",
+          "attributeValue": "tile_bill_fixednet_error_contract_not_active"
+        }
+      ],
+      "config": {
+        "icon": "bill_report_dark_24",
+        "background": "White",
+        "headline": "Letzte Rechnung",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "dslLandlineNumber",
+      "actionEligibilityID": "tariff_fixednet",
+      "template": "DSLLandlineNumber",
+      "customAttributes": [
+        {
+          "attributesKey": "callToAction",
+          "attributeValue": "+weitere"
+        }
+      ],
+      "config": {
+        "icon": "landline_or_call_minutes_dark_24",
+        "background": "white",
+        "headline": "Rufnummer",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "tariff_fixednet",
+      "actionEligibilityID": "tariff_fixednet",
+      "template": "defaultTemplate",
+      "customAttributes": [
+      ],
+      "config": {
+        "icon": "admin_white_24",
+        "headline": "Mein Tarif",
+        "background": "white",
+        "subline": "Details ansehen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "speedtest",
+      "actionEligibilityID": "speedtest",
+      "template": "defaultTemplate",
+      "customAttributes": [
+      ],
+      "config": {
+        "icon": "acceleration_dark_24",
+        "background": "white",
+        "headline": "Speedtest",
+        "subline": "Geschwindigkeit prüfen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "shopfinder",
+      "actionEligibilityID": "shopfinder",
+      "template": "defaultTemplate",
+      "customAttributes": [
+      ],
+      "config": {
+        "icon": "location_dark_24",
+        "headline": "Shopfinder",
+        "background": "white",
+        "subline": "Shops finden",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "passes_business",
+      "actionEligibilityID": "passes_business",
+      "template": "postpaidVodafonePassTemplate",
+      "config": {
+        "icon": "passes",
+        "background": "bg_image_card_red",
+        "headline": "Vodafone Pass",
+        "subline": "Vodafone Passes subline",
+        "errorText": "Daten konnten nicht geladen werden"
+      },
+      "eligibility": {
+        "type": null,
+        "soc": null
+      }
+    },
+    {
+      "id": "noData",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "info_circle_24",
+        "background": "white",
+        "headline": "Deine Nutzung",
+        "subline": "Infos zu Deinem Tarif findest Du unter MeinTarif.",
+        "action": "deeplink",
+        "url": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "faq",
+      "actionEligibilityID": "faq",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "help_dark_24",
+        "headline": "FAQ",
+        "background": "white",
+        "subline": "Antworten auf die häufigsten Fragen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "fixed_gigakombi",
+      "actionEligibilityID": "fixed_gigakombi",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "add_dark_24",
+        "headline": "GigaKombi",
+        "background": "bg_image_card_red",
+        "subline": "Kombinieren & sparen",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    },
+    {
+      "id": "offer",
+      "actionEligibilityID": "offer",
+      "template": "defaultTemplate",
+      "config": {
+        "icon": "top_deals_dark_24",
+        "headline": "Angebote",
+        "background": "white",
+        "subline": "",
+        "errorText": "Daten konnten nicht geladen werden."
+      }
+    }
+  ],
+  "area": {
+    "postpaid": {
+      "tiles": [
+        [
+          "postpaidConsumption",
+          "noData"
+        ],
+        [
+          "postpaidCurrentCosts",
+          "data",
+          "faq"
+        ],
+        [
+          "postpaidRedPlus",
+          "overview",
+          "shopfinder"
+        ],
+        [
+          "postpaidVodafonePass",
+          "passes_business",
+          "tariffoptions",
+          "speedtest"
+        ]
+      ]
+    },
+    "prepaid": {
+      "tiles": [
+        [
+          "prepaidConsumption",
+          "noData"
+        ],
+        [
+          "prepaidCredit",
+          "recharge"
+        ],
+        [
+          "vertrag",
+          "shopfinder"
+        ],
+        [
+          "recharge",
+          "offer"
+        ]
+      ]
+    },
+    "dsl": {
+      "tiles": [
+        [
+          "bill_fixednet"
+        ],
+        [
+          "dslLandlineNumber"
+        ],
+        [
+          "fixed_gigakombi",
+          "info"
+        ],
+        [
+          "speedtest"
+        ]
+      ]
+    },
+    "cable": {
+      "tiles": [
+        [
+          "bill_cable",
+          "faq"
+        ],
+        [
+          "contract_data_cable",
+          "offer"
+        ],
+        [
+          "speedTest",
+          "shopfinder"
+        ],
+        [
+          "fixed_gigakombi",
+          "shopfinder"
+        ]
+      ]
+    }
+  },
+  "discovery": {
+    "sections": [
+      {
+        "order": 1,
+        "titleKey": "vf_dashboard_basic_title",
+        "image": "",
+        "design": "list",
+        "items": [
+          {
+            "itemID": "tariff_fixednet",
+            "icon": "contract_dark_24_px",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 2,
+            "itemTitleKey": "vf_dashboard_tariff_fixednet"
+          },
+          {
+            "itemID": "offer",
+            "icon": "topdeals_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 1,
+            "itemTitleKey": "vf_dashboard_offer"
+          },
+          {
+            "itemID": "bill_fixednet",
+            "icon": "bill_report_dark_24",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 3,
+            "itemTitleKey": "vf_dashboard_bill_fixednet"
+          },
+          {
+            "itemID": "bill_cable",
+            "icon": "bill_report_dark_24",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 4,
+            "itemTitleKey": "vf_dashboard_bill_cable"
+          },
+          {
+            "itemID": "recharge",
+            "icon": "top_up_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 5,
+            "itemTitleKey": "vf_dashboard_recharge"
+          },
+          {
+            "itemID": "overview",
+            "icon": "bill_report_dark_24",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 6,
+            "itemTitleKey": "vf_dashboard_overview"
+          },
+          {
+            "itemID": "esim",
+            "icon": "sim",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 11,
+            "itemTitleKey": "vf_dashboard_esim"
+          },
+          {
+            "itemID": "tariff",
+            "icon": "contract_dark_24_px",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 7,
+            "itemTitleKey": "vf_dashboard_tariff"
+          },
+          {
+            "itemID": "tariffoptions",
+            "icon": "add_sim",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 8,
+            "itemTitleKey": "vf_dashboard_tariffoptions"
+          },
+          {
+            "itemID": "tariffoptions_yolo",
+            "icon": "add_sim",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 8,
+            "itemTitleKey": "vf_dashboard_tariffoptions_yolo"
+          },
+          {
+            "itemID": "passes_business",
+            "icon": "passes",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 9,
+            "itemTitleKey": "vf_dashboard_passes_business"
+          },
+          {
+            "itemID": "office_number",
+            "icon": "admin_dark",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 12,
+            "itemTitleKey": "vf_dashboard_office_number"
+          },
+          {
+            "itemID": "corporate_vpn",
+            "icon": "admin_dark",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 13,
+            "itemTitleKey": "vf_dashboard_corporate_vpn"
+          },
+          {
+            "itemID": "corporate_vpn_test",
+            "icon": "admin_dark",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 14,
+            "itemTitleKey": "vf_dashboard_corporate_vpn_test"
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "titleKey": "vf_dashboard_account_title",
+        "image": "",
+        "design": "card",
+        "items": [
+          {
+            "itemID": "inbox",
+            "icon": "inbox_icon",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 8,
+            "itemTitleKey": "vf_dashboard_inbox"
+          },
+          {
+            "itemID": "sim",
+            "icon": "sim",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 2,
+            "itemTitleKey": "vf_dashboard_sim"
+          },
+          {
+            "itemID": "contract_data_cable",
+            "icon": "contract_dark_24_px",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 6,
+            "itemTitleKey": "vf_dashboard_contract_data_cable"
+          },
+          {
+            "itemID": "orders_fixednet",
+            "icon": "box_dark",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 10,
+            "itemTitleKey": "vf_dashboard_orders_fixednet"
+          },
+          {
+            "itemID": "data_fixednet",
+            "icon": "admin_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 7,
+            "itemTitleKey": "vf_dashboard_data_fixednet"
+          },
+          {
+            "itemID": "mcy_my_data",
+            "icon": "admin_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 4,
+            "itemTitleKey": "vf_dashboard_mcy_my_data"
+          },
+          {
+            "itemID": "data",
+            "icon": "admin_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 3,
+            "itemTitleKey": "vf_dashboard_data"
+          },
+          {
+            "itemID": "orders",
+            "icon": "box_dark",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 5,
+            "itemTitleKey": "vf_dashboard_orders"
+          },
+          {
+            "itemID": "vertrag",
+            "icon": "contract_dark_24_px",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 1,
+            "itemTitleKey": "vf_dashboard_vertrag"
+          },
+          {
+            "itemID": "info",
+            "icon": "settings_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 11,
+            "itemTitleKey": "vf_dashboard_info"
+          },
+          {
+            "itemID": "documents",
+            "icon": "contract_dark_24_px",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 9,
+            "itemTitleKey": "vf_dashboard_documents"
+          },
+          {
+            "itemID": "umzug",
+            "icon": "box_dark",
+            "openButtonTitleKey": "vf_dashboard_button_start",
+            "order": 12,
+            "itemTitleKey": "vf_dashboard_umzug"
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "titleKey": "vf_dashboard_info_title",
+        "image": "",
+        "design": "list",
+        "items": [
+          {
+            "itemID": "transfer",
+            "icon": "transfer_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 1,
+            "itemTitleKey": "vf_dashboard_transfer"
+          },
+          {
+            "itemID": "transfer_postpaid",
+            "icon": "transfer_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 2,
+            "itemTitleKey": "vf_dashboard_transfer_postpaid"
+          },
+          {
+            "itemID": "roaming",
+            "icon": "internet_globe_country_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 3,
+            "itemTitleKey": "vf_dashboard_roaming"
+          },
+          {
+            "itemID": "covid",
+            "icon": "internet_globe_country_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 4,
+            "itemTitleKey": "vf_dashboard_covid"
+          },
+          {
+            "itemID": "shopfinder",
+            "icon": "tracker_icon",
+            "openButtonTitleKey": "vf_dashboard_button_start",
+            "order": 5,
+            "itemTitleKey": "vf_dashboard_shopfinder"
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "titleKey": "vf_dashboard_service_title",
+        "image": "dashboard_map",
+        "design": "card",
+        "items": [
+          {
+            "itemID": "netzassistant-dsl",
+            "icon": "connectivity_icon",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 2,
+            "itemTitleKey": "vf_dashboard_netzassistant"
+          },
+          {
+            "itemID": "netzassistant-cable",
+            "icon": "connectivity_icon",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 2,
+            "itemTitleKey": "vf_dashboard_netzassistant"
+          },
+          {
+            "itemID": "netzfeedback",
+            "icon": "network_dark",
+            "openButtonTitleKey": "vf_dashboard_button_open",
+            "order": 1,
+            "itemTitleKey": "vf_dashboard_netzfeedback"
+          },
+          {
+            "itemID": "netzabdeckung",
+            "icon": "network_dark",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 4,
+            "itemTitleKey": "vf_dashboard_netzabdeckung"
+          },
+          {
+            "itemID": "speedtest",
+            "icon": "speedtest_dark",
+            "openButtonTitleKey": "vf_dashboard_button_start",
+            "order": 5,
+            "itemTitleKey": "vf_dashboard_speedtest"
+          },
+          {
+            "itemID": "netzinfo",
+            "icon": "connectivity_icon",
+            "openButtonTitleKey": "vf_dashboard_button_change",
+            "order": 3,
+            "itemTitleKey": "vf_dashboard_netzinfo"
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "titleKey": "vf_dashboard_help_title",
+        "design": "list",
+        "image": "",
+        "items": [
+          {
+            "itemID": "faq",
+            "icon": "help_dark_24",
+            "openButtonTitleKey": "vf_dashboard_button_start",
+            "order": 2,
+            "itemTitleKey": "vf_dashboard_faq"
+          },
+          {
+            "itemID": "forum",
+            "icon": "forum_icon",
+            "openButtonTitleKey": "vf_dashboard_button_start",
+            "order": 4,
+            "itemTitleKey": "vf_dashboard_forum"
+          },
+          {
+            "itemID": "help_cable",
+            "icon": "help_dark_24",
+            "openButtonTitleKey": "vf_dashboard_button_start",
+            "order": 1,
+            "itemTitleKey": "vf_dashboard_help_cable"
+          }
+        ]
+      }
+    ]
+  },
+  "bottomBar": [
+    {
+      "id": "home",
+      "titleKey": "vf_dashboard_bottom_home",
+      "icon": "vf_brand_logo_dark",
+      "order": 1
+    },
+    {
+      "id": "offer",
+      "titleKey": "vf_dashboard_offer",
+      "icon": "topdeals_dark",
+      "order": 2
+    },
+    {
+      "id": "bill_fixednet",
+      "titleKey": "vf_dashboard_bill_fixednet",
+      "icon": "bill_report_dark_24",
+      "order": 3
+    },
+    {
+      "id": "bill_cable",
+      "titleKey": "vf_dashboard_bottom_bill_cable",
+      "icon": "bill_report_dark_24",
+      "order": 4
+    },
+    {
+      "id": "recharge",
+      "titleKey": "vf_dashboard_recharge",
+      "icon": "top_up_dark",
+      "order": 5
+    },
+    {
+      "id": "overview",
+      "titleKey": "vf_dashboard_bottom_overview",
+      "icon": "bill_report_dark_24",
+      "order": 6
+    },
+    {
+      "id": "product_switcher",
+      "titleKey": "vf_dashboard_product_switcher",
+      "icon": "product_switcher_icon",
+      "order": 9
+    }
+  ]
+}
