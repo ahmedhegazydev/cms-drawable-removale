@@ -19,7 +19,6 @@ fun main(args: Array<String>) {
     strs.forEach {
         var res = ""
         var counter = 0
-        var breakK = true
         run loop@{
             it.forEachIndexed { index, c ->
                 if (c == '"' && counter == 0) {
