@@ -47,7 +47,7 @@ fun main(args: Array<String>) {
     val start = "val list = mutableListOf<Int>(\n"
     var body = ""
     values.forEach {
-        body += "R.id.$it, \n"
+        body += "R.drawable.$it, \n"
     }
     val end = ")"
     val finalRes = start.plus(body).plus(end)
