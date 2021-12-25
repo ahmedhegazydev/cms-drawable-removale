@@ -7,7 +7,7 @@
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7.jar!/" />
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/okhttp-4.10.0-RC1.jar!/" />
-      <root url="jar://$USER_HOME$/Downloads/json-20210307.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/json-20210307.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
